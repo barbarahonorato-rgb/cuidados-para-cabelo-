@@ -25,3 +25,31 @@ nav ul {
   gap: 25px;
   margin-top: 10px;
 }
+
+nav ul
+color:white 
+text-decoration:none;
+font-weight:bold;
+transition:0.3s;
+{
+  nav a:hover{
+    color:#ffe6eb;
+}
+  .hero {
+    text-aling:center;
+    padding:60px 20px;
+    backgroud-color:#ffe6eb;
+  }
+  .hero button{
+    margin-top:20px;
+    padding:10px 25px;
+    border:none;
+    background-color:#f9748f;
+    color:white;
+    font-size:16px;
+    border-radius:8px;
+    cursor:pointer;
+    transition:0.3s;
+  }
+
+.hero button:hov
