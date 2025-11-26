@@ -1,19 +1,19 @@
-const btndica=
-  document.getElementByld("btnDica");
-const dica =
-  document.getElementByld("dica");
+const btnDica = document.getElementById("btnDica");
+const dica = document.getElementById("dica");
 
 const dicas = [
-  "evite lavar o cabelo com agua muito quente!"
-"corte as pontas a cada 2 meses para evitar pontas duplas"
-" faça hidratação semenal com produtos naturais.",
-  " use protetot térmico antes de secar ou alisar.",
-  " durma com fronha de cetim para evitar o frizz.",
-  " massageie o couro cabeludo para estimular o crescimento.",
-  " não durma com o cabelo molhado!"];
+  "Evite lavar o cabelo com água muito quente!",
+  "Corte as pontas a cada 2 meses para evitar pontas duplas.",
+  "Faça hidratação semanal com produtos naturais.",
+  "Use protetor térmico antes de secar ou alisar.",
+  "Durma com fronha de cetim para evitar o frizz.",
+  "Massageie o couro cabeludo para estimular o crescimento.",
+  "Não durma com o cabelo molhado!"
+];
 
-btnDica.addEventLister("click",()=>{
+btnDica.addEventListener("click", () => {
   const dicaAleatoria =
-    dicas[math.random()*
-    dicas.length)];
-dica.textcontent = dicaAleatoria;});
+    dicas[Math.floor(Math.random() * dicas.length)];
+  
+  dica.textContent = dicaAleatoria;
+});
